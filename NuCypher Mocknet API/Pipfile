@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+
+
+cryptography = ">=2.3"
+pynacl = "*"
+constantsorrow = {git = "https://github.com/nucypher/constantSorrow.git", ref = "nucypher-depend"}
+bytestringsplitter = {git = "https://github.com/nucypher/byteStringSplitter.git", ref = "nucypher-depend"}
+pyumbral = {git = "https://github.com/nucypher/pyumbral.git"}
+idna = ">=2.1"
+"asn1crypto" = ">=0.21.0"
+six = ">=1.4.1"
+cffi = ">=1.7"
+"msgpack-python" = "*"
+requests = "*"
+
+[dev-packages]
+
+pytest = "*"
+coverage = "*"
+"pytest-cov" = "*"
+pdbpp = "*"
+ipython = "*"
+"pytest-mock" = "*"
+codecov = "*"
+sphinx = "*"
+"sphinx-autobuild" = "*"
+pylint = "*"
+"autopep8" = "*"

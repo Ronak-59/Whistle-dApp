@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Whistle dApp</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/flexit.min.css" />
+    <script src="JS/video.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="twelve columns">
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo" style="margin-left:2%;"><i class="fas fa-bullhorn" style="float: none;"></i> Whistle</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!--<div class="row">
+            <div class="twelve columns">
+                <div id="alert"></div>
+            </div>
+        </div>-->
+
+        <div class="row" id="login">
+            <div class="6 columns">
+                Wallet: <input type="text" id="wallet">
+            </div>
+
+            <div class="6 columns">
+                Seed: <input type="password" id="seed">
+            </div>
+        </div>
+        <div class="row" id="register">
+            <div class="twelve columns" style="text-align:-webkit-center;">
+                Don't have a wallet? Let us <a href="#" id="generate">generate a wallet</a> for you securely, just enter a seed.
+            </div>
+        </div>
+
+        <div class="row" id="checkinBtn">
+            <div class="eleven columns">
+                <a id="checkin" style="width:100%" class="waves-effect waves-light btn">
+                    <i class="fas fa-heart"></i> check in</a>
+                </div>
+                <div class="one columns">
+                    <div id="checkin_status"></div>
+                </div>
+            </div>
+
+            <div style="display:none">
+                <input type="file" id="fileInput" name="fileInput" />
+            </div>
+            <div class="row" id="upload">
+                <div class="twelve columns">
+                    <div class="row" id="buttons">
+                        <div class="six columns">
+                            <a id="uploadButton" style="width:100%; height: 150px;" class="waves-effect waves-light btn">
+                                <i class="fas fa-upload"></i> Upload File
+                            </a>
+                        </div>
+
+                        <div class="six columns">
+                            <a id="record" style="width:100%; height: 150px;" class="waves-effect waves-light btn">
+                                <i class="fas fa-video"></i> Record Video
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="twelve columns" id="video">
+                    <video id="video" autoplay width="500px"></video>
+                    <br>
+                    <a href="#" class="waves-effect waves-light btn" id="uploadToChainButton">Done Recording</a>
+                </div>
+            </div>
+            <div class="row" id="alias">
+                <div class="6 columns">
+                    Alias 1: <input type="email" id="alias1" required="">
+                </div>
+
+                <div class="6 columns">
+                    Alias 2 <input type="email" id="alias2">
+                </div>
+              </br>
+                <div class="five columns">
+                    Release Information after <input style="width: 60px;" type="number" id="heartbeatDays"> days of inactivity.
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns" id="submitToAPI">
+                    <a href="#" style="width:100%;" class="waves-effect waves-light btn" id="uploadToAPI">Submit</a>
+                </div>
+            </div>
+        </div>
+        <script src="JS/jquery-3.3.1.min.js"></script>
+        <script src="JS/main.js"></script>
+
+
+
+</body>
+</html>

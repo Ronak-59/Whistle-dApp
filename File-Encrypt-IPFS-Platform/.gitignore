@@ -1,0 +1,5 @@
+node_modules/
+package-lock.json
+configServer.js
+.vscode
+.DS_Store
