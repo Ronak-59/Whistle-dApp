@@ -62,6 +62,6 @@ Team ReactOn:
 * [Rohan Verma](https://github.com/rhnvrm)
 * [Ayush Shukla](https://github.com/MCD-50)
 
-<a href="https://drive.google.com/uc?export=view&id=1gpghZFi8nQyyNPA2XsX4h2rlbuJSgVQD"><img src="https://drive.google.com/uc?export=view&id=1gpghZFi8nQyyNPA2XsX4h2rlbuJSgVQD" style="width: 500px; max-width: 100%; height: auto" title="Team ReactOn." /></a>
+<a href="https://drive.google.com/uc?export=view&id=1gpghZFi8nQyyNPA2XsX4h2rlbuJSgVQD"><img src="https://drive.google.com/uc?export=view&id=1gpghZFi8nQyyNPA2XsX4h2rlbuJSgVQD" style="width: 240px; max-width: 100%; height: 320px;" title="Team ReactOn." /></a>
 
 
