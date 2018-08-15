@@ -1,4 +1,4 @@
-# Whistle - A decentralised app for Wistleblowers developed as a part of EthIndia 2018 Hackathon at Bangaluru, India.
+# Whistle - A decentralised app for Whistleblowers developed as a part of EthIndia 2018 Hackathon at Bangaluru, India.
 
 ## Describe your project name. WHAT ARE YOU CALLING IT?
 
